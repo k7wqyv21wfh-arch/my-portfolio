@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #EAEAE9;
+    color: #5B5B5B;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(120%);
+    -webkit-backdrop-filter: blur(10px) saturate(120%);
+    border-bottom: #000 1px solid;
+    text-align: justify;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header nav {
+    padding: 0 100px;
+    margin-left: auto;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    padding-left: 40px;
+}
+
+
+header h1 {
+    font-size: 20px;
+    padding: 0 100px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*ここからメイン*/
+.main-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    padding: 200px 10%;
+    box-sizing: border-box;
+}
+
+/*左*/
+.left-wrapper {
+    width: 45%;
+    padding-left: 10%;
+}
+
+.left-wrapper h2 {
+    font-size: 40px;
+    color: #EAEAE9;
+    -webkit-text-stroke: 1px #5B5B5B;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.left-wrapper p {
+    display: inline-block;
+    width: 300px;
+}
+
+
+/*右*/
+.right-wrapper {
+    width: 45%;
+}
+
+.right-wrapper img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
